@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>강아지찾기</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="web_project.css" />
+  </head>
+  <body>
+    <h1>숨어있는 강아지 찾기</h1>
+    <hr />
+    <br />
+    <div id="info">
+      <div id="start" class="side" onclick="gameStart()">게임시작</div>
+      <div id="remain" class="side">남은 수 : 8</div>
+      <div id="fail" class="side">실패 수 : 0</div>
+      <div id="time" class="side">시간 : 0</div>
+      <div id="order" class="side">게임이 진행될 예정입니다.</div>
+      <div id="hint" class="side" onclick="giveHint()">힌트 기회는 1번</div>
+    </div>
+    <table id="gameboard">
+      <script type="text/javascript" src="gameboard.js"></script>
+    </table>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
